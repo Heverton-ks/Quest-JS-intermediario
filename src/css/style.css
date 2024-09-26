@@ -54,13 +54,29 @@ body {
 
 .conteudo .formulario .mensagem {
     height: 100px;
+    margin-bottom: 7px;
 }
 
+.conteudo .observacao {
+    text-align: left;
+    width: 298px;
+}
+
+.conteudo .observacao p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
 .enviar {
+    margin-top: 20px;
     background-color: #00C22B;
+    font-size: 15px;
+    font-weight: 700;
     border: 0px;
     border-radius: 5px;
-    width: 248px;
+    width: 298px;
     height: 41px;
     color: #FFFFFF;
 }
