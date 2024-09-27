@@ -19,18 +19,32 @@
     </section>
 
     <section class="conteudo">
-        <form action="#" class="formulario">
-            <input type="text" placeholder="Nome Completo *" class="caixa nome">
+        <form action="#" method="get" class="formulario">
+            <div class="caixa">
+                <input type="text" placeholder="Nome Completo *" class="campo nome">
+                <label class="obrigatorio">campo obrigatório</label>
+            </div>
 
-            <input type="text" placeholder="Email *" class="caixa email">
+            <div class="caixa">
+                <input type="text" placeholder="Email *" class=" campo email">
+                <label class="obrigatorio">campo obrigatório</label>
+            </div>
 
-            <input type="text" placeholder="Telefone *" class="caixa telefone">
+            <div class="caixa">
+                <input type="text" placeholder="Telefone *" class="campo telefone">
+                <label class="obrigatorio">campo obrigatório</label>
+            </div>
 
-            <input type="text" placeholder="Mensagem *" class="caixa mensagem">
+            <div class="caixa"> 
+                <textarea placeholder="Mensagem *" class="campo mensagem" ></textarea>
+                <label class="obrigatorio">campo obrigatório</label>
+            </div>
+
             <div class="observacao">
                 <p >*campos obrigatórios</p>
             </div>
-            <button class="enviar">Enviar</button>
+            <input type="submit" class="enviar" value="Enviar">
+            
         </form>
     </section>
 </body>

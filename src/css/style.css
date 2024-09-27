@@ -32,29 +32,36 @@ body {
     background-color: #FFFFFF;
     width: 340px;
     height: 378px;
+    
 }
 
 .conteudo .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
-.conteudo .formulario .caixa {
+.conteudo .formulario .campo {
     width: 298px;
     height: 35px;
     border-radius: 5px;
-    margin-bottom: 15px;
-    border: solid 1px #00C22B;
+    margin-bottom: 10px;
+    border: solid 1px #000000;
+    padding: 10px;
 }
 
-.conteudo .formulario .nome {
-    margin-top: 20px;
+.conteudo .formulario .campo::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
 }
 
-.conteudo .formulario .mensagem {
+.conteudo .formulario .caixa .mensagem {
     height: 100px;
-    margin-bottom: 7px;
+    max-width: 298px;
+    resize:none;
 }
 
 .conteudo .observacao {
@@ -67,11 +74,33 @@ body {
     font-weight: 400;
 }
 
+.caixa {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 45px;
+    margin-top: 5px;
+}
 
+.caixa:nth-child(1) {
+    margin-top: 20px;
+}
+
+.caixa:nth-child(4) {
+    height: 110px;
+}
+
+.conteudo .obrigatorio {
+    font-size: 8px;
+    font-weight: 400;
+    width: 298px;
+    position: absolute;
+}
 
 .enviar {
     margin-top: 20px;
-    background-color: #00C22B;
+    background-color: #3CCC87;
     font-size: 15px;
     font-weight: 700;
     border: 0px;
@@ -79,4 +108,13 @@ body {
     width: 298px;
     height: 41px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #00C22B;
+}
+
+.enviar:active {
+    background-color: #3CCC87;
 }
