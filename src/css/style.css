@@ -96,6 +96,7 @@ body {
     font-weight: 400;
     width: 298px;
     position: absolute;
+    display: none;
 }
 
 .enviar {
@@ -118,3 +119,13 @@ body {
 .enviar:active {
     background-color: #3CCC87;
 }
+
+/* .campo-preenchido {
+    border-color: #00C22B;
+}
+
+.vermelho {
+    border-color: solid 1px #F52E2E;
+    display: block;
+} */
+
