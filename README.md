@@ -15,7 +15,7 @@
 
 ## Sobre
 
-Este projeto é um exercício desafio que realizei no meu curso de desenvolvimento front-end. Foi utilizado html, css e javascript para construção de um formulário que alertasse caso um campo obrigatório não estivesse preenchido ao ser enviado.
+Este projeto é um exercício desafio que realizei no curso DEVQUEST. Foi utilizado html, css e javascript para construção de um formulário que alertasse caso um campo obrigatório não estivesse preenchido ao ser enviado.
 
 ### Exercício proposto 
 
