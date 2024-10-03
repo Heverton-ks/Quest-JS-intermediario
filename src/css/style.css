@@ -58,18 +58,12 @@ body {
     color: #A8A8A8;
 }
 
-.conteudo .formulario .caixa .mensagem {
-    height: 100px;
-    max-width: 298px;
-    resize:none;
-}
-
-.conteudo .observacao {
+.conteudo .formulario .observacao {
     text-align: left;
     width: 298px;
 }
 
-.conteudo .observacao p {
+.conteudo .formulario .observacao p {
     font-size: 15px;
     font-weight: 400;
 }
@@ -91,12 +85,21 @@ body {
     height: 110px;
 }
 
-.conteudo .obrigatorio {
+#mensagem {
+    height: 100px;
+    max-width: 298px;
+    resize:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.conteudo .formulario .obrigatorio {
     font-size: 8px;
     font-weight: 400;
     width: 298px;
     position: absolute;
-    display: none;
+    color: #F52E2E;
+    /* display: none; */
 }
 
 .enviar {
@@ -120,12 +123,7 @@ body {
     background-color: #3CCC87;
 }
 
-/* .campo-preenchido {
-    border-color: #00C22B;
+.esconder {
+    display: none;
 }
-
-.vermelho {
-    border-color: solid 1px #F52E2E;
-    display: block;
-} */
 
